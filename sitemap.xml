@@ -3,15 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://karldw.org/categories/</loc>
+    <loc>https://karldw.org/categories/</loc>
   </url>
   
   <url>
-    <loc>http://karldw.org/</loc>
+    <loc>https://karldw.org/</loc>
   </url>
   
   <url>
-    <loc>http://karldw.org/tags/</loc>
+    <loc>https://karldw.org/tags/</loc>
   </url>
   
 </urlset>
