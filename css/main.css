@@ -114,6 +114,13 @@
 		.icon > .label {
 			display: none;
 		}
+	.icon-headshot {
+		text-decoration: none;
+		position: relative;
+	}
+		.icon-headshot > .label {
+			display: none;
+		}
 
 /* Wrapper */
 
@@ -537,6 +544,7 @@
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
+			font-weight: bold;
 		}
 
 		#header nav {
@@ -557,15 +565,16 @@
 				-ms-transform: translate3d(0,0,0);
 				transform: translate3d(0,0,0);
 				display: inline-block;
-				height: 5.35em;
-				line-height: 5.885em;
+				height: 8.35em;
+				line-height: 8.885em;
 				opacity: 0;
 				position: relative;
 				top: 0;
-				width: 5.35em;
+				width: 8.35em;
 			}
 
 				#header nav li:nth-child(1) {
+					/* orig 2.5s */
 					-moz-animation-delay: 2.5s;
 					-webkit-animation-delay: 2.5s;
 					-ms-animation-delay: 2.5s;
@@ -573,31 +582,36 @@
 				}
 
 				#header nav li:nth-child(2) {
-					-moz-animation-delay: 2.75s;
-					-webkit-animation-delay: 2.75s;
-					-ms-animation-delay: 2.75s;
-					animation-delay: 2.75s;
+					/* orig 2.75s */
+					-moz-animation-delay: 2.25s;
+					-webkit-animation-delay: 2.25s;
+					-ms-animation-delay: 2.25s;
+					animation-delay: 2.25s;
 				}
 
 				#header nav li:nth-child(3) {
-					-moz-animation-delay: 3s;
-					-webkit-animation-delay: 3s;
-					-ms-animation-delay: 3s;
-					animation-delay: 3s;
+					/* orig 3s */
+					-moz-animation-delay: 2s;
+					-webkit-animation-delay: 2s;
+					-ms-animation-delay: 2s;
+					animation-delay: 2s;
 				}
 
 				#header nav li:nth-child(4) {
-					-moz-animation-delay: 3.25s;
-					-webkit-animation-delay: 3.25s;
-					-ms-animation-delay: 3.25s;
-					animation-delay: 3.25s;
+					/* orig 3.25s */
+
+					-moz-animation-delay: 2.25s;
+					-webkit-animation-delay: 2.25s;
+					-ms-animation-delay: 2.25s;
+					animation-delay: 2.25s;
 				}
 
 				#header nav li:nth-child(5) {
-					-moz-animation-delay: 3.5s;
-					-webkit-animation-delay: 3.5s;
-					-ms-animation-delay: 3.5s;
-					animation-delay: 3.5s;
+					/* orig 3.5s */
+					-moz-animation-delay: 2.5s;
+					-webkit-animation-delay: 2.5s;
+					-ms-animation-delay: 2.5s;
+					animation-delay: 2.5s;
 				}
 
 				#header nav li:nth-child(6) {
