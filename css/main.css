@@ -332,7 +332,7 @@
 		-ms-animation: overlay 2.5s 5.5s forwards;
 		animation: overlay 2.5s 5.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("images/overlay-pattern.png"), url("images/overlay.svg");
+		/* background-image: url("images/overlay-pattern.png"), url("images/overlay.svg"); */
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
@@ -712,7 +712,7 @@
 		text-align: center;
 		width: 100%;
 		font-size: small;
-		opacity: 0.8;
+		opacity: 0.6;
 	}
 
 /* Wide */
