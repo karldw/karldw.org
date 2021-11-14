@@ -2,25 +2,50 @@
 <!-- Sure would be nice if this didn't look like a website from 1993, but I'm having trouble getting Hugo to render properly, so this is all written by hand. Let me know if you have suggestions. -->
 <html lang="en" dir="ltr">
 <head>
-    <title>Research</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Note: not importing main stylesheet (/css/main.css) -->
+<style>
+h1   {
+    color: #3B7EA1;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:40px;
+}
+h2   {
+    color: #3B7EA1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h3   {
+    color: #3B7EA1;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+p    {
+    /* font-family: 'Source Sans Pro', sans-serif; color: #3B7EA1; */
+    word-wrap: break-word; word-break: keep-all; max-width: 40em;
+}
 
-    <link rel="stylesheet" href="css/main.css" />
- <link rel="shortcut icon" type="image/x-icon" href="https://karldw.org/css/favicon.ico">
- <link rel="icon" type="image/x-icon" href="https://karldw.org/css/favicon.ico">
+</style>
+
+<title>Research</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<link rel="shortcut icon" type="image/x-icon" href="/css/favicon.ico">
+<link rel="icon" type="image/x-icon" href="/css/favicon.ico">
 
 </head>
-<body><body style="margin-left:10em;margin-right: 10em; padding:5em">
-<h1><p style="font-family: 'Source Sans Pro', sans-serif; font-size:40px; color:#3B7EA1;">Research</p>
-<!-- <nbsp;><p style="font-size: 14px; font-family: 'Source Sans Pro', sans-serif;"><a href="https://karldw.org">Back to main page</a></p></h1> -->
-<nbsp;><p style="font-size: 14px; font-family: 'Source Sans Pro', sans-serif;"><a href="/#">Back to main page</a></p></h1>
-<h2>
-<p style="font-family: 'Source Sans Pro', sans-serif; color:#3B7EA1;"><a href="/papers/Karl_Dunkle_Werner_JMP.pdf">Hard to Measure Well: Can Feasible Policies Reduce Methane Emissions?</a> (<i>job market paper</i>)</p>
-</h2>
-<b>Coauthor:</b> <a href="https://wenfengqiu.com/">Wenfeng Qiu</a>
+<body style="margin-left: 10%; margin-right: 10%; padding: 5%;">
+<h1>Research
+<p style="font-size: 14px;">
+This is a personal website. The research, views, findings, and opinions are my own, not my employer's.
 <br>
 <br>
+</p>
+</h1>
+
+<h2 id="working_papers">Working Papers</h2>
+<h3><a href="/papers/Karl_Dunkle_Werner_JMP.pdf">Hard to Measure Well: Can Feasible Policies Reduce Methane Emissions?</a></h3>
+
+<p><b>Coauthor:</b> <a href="https://wenfengqiu.com/">Wenfeng Qiu</a></p>
+<p>
 <b>Abstract:</b>
 Oil and gas wells emit large quantities of methane, a greenhouse gas 34&nbsp;times more potent than carbon dioxide.
 Methane emissions are rarely priced and lightly regulated&mdash;in large part because they are hard to measure&mdash;leading to a large climate externality.
@@ -32,13 +57,12 @@ A policy that audits 1% of wells with uniform probability may achieve less than 
 Using the same number of audits targeted on remotely sensed emissions data could achieve gains of 30&ndash;60% of the first best.
 These simulation results demonstrate that because leaks are rare events, targeting is essential for achieving welfare gains and emissions reductions.
 The results also show that auditing a small fraction of wells can have a large impact when properly targeted.
+</p>
+<p><a href="https://github.com/karldw/paper_hard_to_measure_well">Replication code</a></p>
 
-<br>
-<br>
-<h2><p style="font-family: 'Source Sans Pro', sans-serif; color:#3B7EA1;"><a href="/papers/Rate_of_Return.pdf">Rate of Return Regulation Revisited</a></p></h2>
-<b>Coauthor:</b> <a href="https://stephenjarvis.github.io/">Stephen Jarvis</a>
-<br>
-<br>
+<h3><a href="/papers/Rate_of_Return.pdf">Rate of Return Regulation Revisited</a></h3>
+<p><b>Coauthor:</b> <a href="https://stephenjarvis.github.io/">Stephen Jarvis</a></p>
+<p>
 <b>Abstract:</b>
 Utility companies recover their capital costs through regulator-approved rates of return on debt and equity.
 The US costs of risky and risk-free capital have fallen dramatically in the past 40&nbsp;years, but these utility rates of return have not.
@@ -46,43 +70,35 @@ We estimate the gap between what utilities are paid now, and what they would hav
 We estimate that the current average return on equity is 0.5&ndash;4 percentage points higher than historical relationships would suggest, and consumers pay an average of $2&ndash;8 billion per year more than they would otherwise.
 We then revisit the effect posited by Averch&ndash;Johnson (1962), estimating the consequences of this incentive to own more capital:
 a 1&nbsp;percentage point increase in the return on equity increases new capital investment by about 5% in our preferred estimate.
+</p>
 
+<h2 id="in_preparation">In Preparation</h2>
 
-<br>
-<br>
-<h2><p style="font-family: 'Source Sans Pro', sans-serif; color:#3B7EA1;">A Welfare Analysis of Drilling on US Public Lands</p></h2>
-
-<b>Coauthor:</b> <a href="https://evalyubich.com/">Eva Lyubich</a>
-<br>
-<br>
-<b>Abstract:</b>
-A large fraction of US oil and gas deposits are on land owned by federal and state governments.
-This public land is frequently leased at prices as low as $2&nbsp;per acre, and federal royalty rates set by the Mineral Leasing Act of 1920 are much lower than the current rates on private lands.
-This paper seeks to estimate the welfare effects of these
-discrepancies&mdash;welfare gains from additional resources available, less losses from misallocated production, forgone government revenue, and increased emissions of greenhouse gases.
-We then consider a hypothetical ban of all drilling on federal land, and estimate the incidence across income groups and types of producer.
-
-<br>
-<br>
-<h2><p style="font-family: 'Source Sans Pro', sans-serif; color:#3B7EA1;">Hedonic Valuation of Flood Risk on Agricultural Land</p></h2>
-<b>Coauthors:</b>
+<h3>Hedonic Valuation of Flood Risk on Agricultural Land</h3>
+<p><b>Coauthors:</b>
 <a href="https://oliverrbrowne.com">Oliver Browne</a>,
 <a href="https://www.linkedin.com/in/alyssa-neidhart-0a7742127">Alyssa Neidhart</a>, and
 <a href="https://www.davidsunding.com/">David Sunding</a>
-<br>
-<br>
+</p>
+<p>
 <b>Abstract:</b>
-Economic theory implies that the hedonic discount on the value of a parcel of flood-prone land should scale with the expected probability of flooding.
-Most empirical studies of the impact of flood risk on property values in the US focus on the relatively small risk posed by the 100-year or 500-year flood plains.
-Focusing on agricultural land near the Missouri River, we find that the hedonic discount climbs sharply from near-zero in the 500-year floodplain to 40% in the 2-year floodplain.
-We use our model to predict the reduction in property values from increased flooding due to climate change.
-In the next 50 years, absent abatement that substantially changes flood risk,
-most of the expected reduction in property value does not result from changes in the 100-year and 500-year flood plain, but rather from increased flood frequency on land that is already expected to flood at least once every 50&nbsp;years.
 
-<br>
-<br>
-<h2><p style="font-family: 'Source Sans Pro', sans-serif; color:#3B7EA1;">Nuclear Closures and Air Pollution</p></h2>
+Floods destroy crops and lower the value of agricultural land.
+Economic theory implies that the hedonic discount on the value of a parcel of flood-prone land should scale with the probability of flooding.
+Existing empirical studies of flood risk on property values in the United States typically focus on the risk posed to residential properties by 100-year floodplain as reported in Federal Emergency Management Agency (FEMA) maps.
+However, agricultural land in the 100-year floodplain often floods much more frequently.
+For example, on the Missouri River, 48% of agricultural land in the 100-year floodplain is also in the 10-year floodplain.
+We estimate the hedonic discounts on the sale price of agricultural land that floods at these higher frequencies along the Missouri River.
+As flood frequencies increase, the value of flood-prone land decreases, with a discount increasing from &minus;2.4% in the 100-year floodplain to &minus;15.8% in the 10-year floodplain; however, these differences are not statistically significant.
+To illustrate the importance of damages from higher frequency floods, we simulate the loss of property values resulting from changes in flood patterns that are expected to occur under a central climate change scenario between now and mid-century.
+We find that most of the future reductions in property value do not result from changes in the 100-year floodplain, but rather from increased flood frequency on land that is already within the 100-year floodplain, highlighting the value of adaptation and mitigation on these already flood-prone properties.
+</p>
 
+
+<h2 id="Older">Older and inactive</h2>
+
+<h3>Nuclear Closures and Air Pollution</h3>
+<p>
 <b>Abstract:</b>
 Cheap natural gas and increased renewables have lowered wholesale electricity prices and  made some existing nuclear power plants unprofitable.
 Environmentalists worry, however, that closing nuclear plants increases pollution by shifting more load to fossil fuels.
@@ -93,6 +109,7 @@ Instead, I combine two empirical approaches to think about all US nuclear plants
 a synthetic difference-in-differences approach to estimate the effect of past closures,
 and low frequency temperature variation to estimate the marginal baseload generation that would be affected by future closures.
 These estimated changes in generation allow us to calculate changes in GHG emissions and, using a reduced-complexity pollution model, the location-specific local air pollution damages.
+</p>
 
 
 </body>
