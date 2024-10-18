@@ -4,7 +4,15 @@
     <title>Karl Dunkle Werner</title>
     <link>https://karldw.org/</link>
     <description>Recent content on Karl Dunkle Werner</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://karldw.org/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://karldw.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://karldw.org/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://karldw.org/research/</guid>
+      <description>&lt;!DOCTYPE html&gt; Research Research This is a personal website. The research, views, findings, and opinions are my own, not my employer&#39;s. Working Papers Rate of Return Regulation Revisited Coauthor: Stephen Jarvis&#xA;Abstract: Utility companies recover their capital costs through regulator-approved rates of return. Using a comprehensive database of utility rate cases, we find a significant premium for regulated returns on equity relative to several capital cost benchmarks. We show that firms decide strategically when to initiate new rate cases, such that regulated returns respond more quickly to increases in underlying capital cost benchmarks than to decreases.</description>
+    </item>
   </channel>
 </rss>
